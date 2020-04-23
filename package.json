@@ -1,21 +1,27 @@
 {
+  "homepage": "http://ryaguy15.github.io/techcom_project",
   "name": "techcom_project",
   "version": "0.1.0",
-  "homepage:": "http://Ryaguy15.github.io/techcom_project",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bulma": "^0.8.1",
+    "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "react-scrollspy": "^3.4.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "css-build": "node-sass src/sass/App.scss src/css/App.css",
+    "css-watch": "yarn run css-build -- --watch",
+    "start": "react-scripts start css-watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
