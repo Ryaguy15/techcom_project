@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28d9562b0b5c92b886ae462363bd154c",
+    "revision": "bd58e5e3b6b82d86c5c682a710f3cea8",
     "url": "/techcom_project/index.html"
   },
   {
-    "revision": "68b7eebf1631363c875e",
-    "url": "/techcom_project/static/css/main.3c6d9c89.chunk.css"
+    "revision": "59da4d7ac5a442aaba69",
+    "url": "/techcom_project/static/css/main.36816f0a.chunk.css"
   },
   {
-    "revision": "b5a9f40db3378e3fc083",
-    "url": "/techcom_project/static/js/2.9d8ca267.chunk.js"
+    "revision": "4480fde89f1a78543d38",
+    "url": "/techcom_project/static/js/2.c9512739.chunk.js"
   },
   {
-    "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/techcom_project/static/js/2.9d8ca267.chunk.js.LICENSE.txt"
+    "revision": "11a928b57aca5049fe950bf8bcde77c5",
+    "url": "/techcom_project/static/js/2.c9512739.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68b7eebf1631363c875e",
-    "url": "/techcom_project/static/js/main.a6c9464a.chunk.js"
+    "revision": "59da4d7ac5a442aaba69",
+    "url": "/techcom_project/static/js/main.e7e01b85.chunk.js"
   },
   {
     "revision": "f0fa6e0e6a49c30cc1b6",
